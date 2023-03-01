@@ -1,0 +1,58 @@
+{
+    "name": "boule_de_pain.jpg",
+    "price": [10,20,23],
+    "size": ["Small","Medium","Large"],
+    "discount": 10,
+    "image": "/products/breads/boule_de_pain.jpg",
+    "description":"A ficelle is a type of French bread loaf, made with yeast and similarto a baguette but much thinner. The word ficelle literally means \"string\" in French.",
+    "reviews" : [
+        {
+            "title": "Best Bread Ever!",
+            "message": "This was the best bread I ever had in my Life!",
+            "rating": 5,
+            "userName": "lolpals9876"
+        },
+        {
+            "title": "Really Great",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 5,
+            "userName": "Adarsh Dubey"
+        },
+        {
+            "title": "Great job man!",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 4,
+            "userName": "Mahesh Allam"
+        },
+        {
+            "title": "No that's wrong!",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 1,
+            "userName": "Naegi Makoto"
+        },
+        {
+            "title": "Still needs to be done",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 3,
+            "userName": "Saud Khan"
+        },
+        {
+            "title": "It's great!",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 4,
+            "userName": "Sakshi Kanna"
+        },
+        {
+            "title": "That's messed up!",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 2,
+            "userName": "Izuru Kamukura"
+        },
+        {
+            "title": "Meh good enough",
+            "message": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptaspariatur, nulla non possimus id incidunt rerum, est, maiores repellatquisquam ipsa dolore. Explicabo hic reiciendis officia cupiditate.Consequatur, tempore? Accusamus?",
+            "rating": 3,
+            "userName": "Lorel Hangman"
+        }
+    ]
+}

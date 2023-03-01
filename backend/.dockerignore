@@ -1,0 +1,5 @@
+node_modules
+Dockerfile
+admin_emails.json
+.dockerignore
+.env

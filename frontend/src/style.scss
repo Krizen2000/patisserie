@@ -1,0 +1,28 @@
+@import "bootstrap/scss/_functions.scss";
+@import "bootstrap/scss/_variables.scss";
+
+// change the theme
+$theme-colors: (
+  // "primary":    $primary,
+  "primary":    #ffa500,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+
+// Import Bootstrap and set the theme
+@import "bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bs-gray-200);
+}
