@@ -1,9 +1,7 @@
 # Frontend
 frontend/node_modules
-frontend/public
 frontend/.env
 
 #Backend
 backend/node_modules
-backend/admin_emails.json
 backend/.env
