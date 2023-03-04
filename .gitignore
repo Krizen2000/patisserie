@@ -1,4 +1,5 @@
 # Frontend
+frontend/build
 frontend/node_modules
 frontend/.env
 

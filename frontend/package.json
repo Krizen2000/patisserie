@@ -1,6 +1,6 @@
 {
   "name": "pâtisserie-frontend",
-  "author":"Krizen Knoz",
+  "author": "Krizen Knoz",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -27,7 +27,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --stats",
+    "analyze": "webpack-bundle-analyzer build/bundle-stats.json",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -48,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.8.0"
   }
 }
