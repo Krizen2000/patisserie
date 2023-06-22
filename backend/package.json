@@ -1,6 +1,6 @@
 {
-  "name": "pâtisserie-backend",
-  "author":"Krizen Knoz",
+  "name": "patisserie-backend",
+  "author": "Krizen Knoz",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,7 +9,6 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
-  "author": "Ashly Lobo",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
