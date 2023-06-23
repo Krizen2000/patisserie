@@ -1,6 +1,11 @@
 import styled from "styled-components";
 import { Facebook, Instagram, Pinterest, Twitter } from "react-bootstrap-icons";
-import { Visa, Mastercard, Googlepay } from "react-pay-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCcMastercard,
+  faCcVisa,
+  faGooglePay,
+} from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
 const BasicWrapper = styled.div`
@@ -33,6 +38,8 @@ const PaymentIconWrapper = styled.div`
   display: flex;
   gap: 1rem;
   svg {
+    color: black;
+
     height: ${({ iconSize }) => iconSize};
     width: ${({ iconSize }) => iconSize};
   }
@@ -126,9 +133,9 @@ const PaymentGateway = () => {
     <BasicWrapper>
       <h2>Payment Gateway</h2>
       <PaymentIconWrapper iconSize="80px">
-        <Visa />
-        <Mastercard />
-        <Googlepay />
+        <FontAwesomeIcon icon={faGooglePay} />
+        <FontAwesomeIcon icon={faCcMastercard} />
+        <FontAwesomeIcon icon={faCcVisa} />
       </PaymentIconWrapper>
     </BasicWrapper>
   );

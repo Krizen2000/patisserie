@@ -4,16 +4,15 @@
 // change the theme
 $theme-colors: (
   // "primary":    $primary,
-  "primary":    #ffa500,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "primary": #ffa500,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
 );
-
 
 // Import Bootstrap and set the theme
 @import "bootstrap";
